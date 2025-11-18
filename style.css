@@ -1,13 +1,12 @@
 body {
-    background: color #fffaf5;;
+    background-color:#f5f5f5;
     margin: 0;
     padding: 0;
     color: #333;
-    font-family: "Poppins", sans-serif;
 }
-/* i {
+i {
     color: #666;
-} */
+}
 
 hr {
     border: none;
@@ -17,21 +16,19 @@ hr {
 }
 
 
-/* nav a:hover {
+nav a:hover {
     color: red;
     font-size: 20px;
-} */
+}
 
-/* .selamat-datang {
+.selamat-datang {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: green;
     font-size: 20px;
     font-weight: bold;
     margin: 10px 0;
-} */
-nav.navbar {
-    background: linear-gradient(90deg, #ffb347, #ffcc33);
 }
+
 .menu {
     display: inline-block;
     background-color: brown;
@@ -44,22 +41,22 @@ nav.navbar {
 
 }
 
-/* a.menu:visited {
+a.menu:visited {
     background-color: blanchedalmond;
     color: purple; 
     font-weight: bold;
-} */
-/* a.menu:hover {
+}
+a.menu:hover {
     background-color: aquamarine;
     color: green;
     font-size: 20px;
     transform: scale(0.95);
-} */
-/* a.menu:active {
+}
+a.menu:active {
     background-color: navy;
     color: yellow;
     transform: scale(1);
-} */
+}
 .sosial-media  {
    margin : 20px
 }
@@ -115,9 +112,9 @@ h3 {
     border-radius: 50%;
     margin-top: 15px;
 }
-/* nav {
+nav {
     margin: 15px 0;
-} */
+}
 
 ul {
     list-style-type: square;
@@ -140,7 +137,6 @@ table {
     width: 80%;
     margin: 20px auto;
     background-color: #f5f5f5;
-    border: 1px solid black;
 
 }
 th {
@@ -149,10 +145,10 @@ th {
     padding: 10px;
 }
 
-/* td {
+td {
     text-align: center;
     padding: 8px;
-} */
+}
 td img {
     border-radius: 10px;
     width: 100px;
@@ -161,33 +157,4 @@ td img {
 
 tr:nth-child(even) {
     background-color: #f2f2f2;
-}
-footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-    margin-top:  50px;
-}
-
-.hero {
-    background: url('img/bakso.jfif') center/cover no-repeat;
-    padding: 80p 20pxx;
-    color: white;
-    text-shadow: 1px ipx 3px rgba(0, 0, 0, 0.6);
-}
-
-.card:hover {
-    transform: translateY(-5px);
-    transition: 0.3s;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-}
-.hero h3 {
-    font-size: 2rem;
-    font-weight: bold;
-}
-
-.card-img-top {
-    height: 220px;
-    object-fit: cover;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
 }
