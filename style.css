@@ -1,0 +1,193 @@
+body {
+    background: color #fffaf5;;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: "Poppins", sans-serif;
+}
+/* i {
+    color: #666;
+} */
+
+hr {
+    border: none;
+    width: 80%;
+    border-top: 2px solid #ccc;
+    margin: 15px auto;
+}
+
+
+/* nav a:hover {
+    color: red;
+    font-size: 20px;
+} */
+
+/* .selamat-datang {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+} */
+nav.navbar {
+    background: linear-gradient(90deg, #ffb347, #ffcc33);
+}
+.menu {
+    display: inline-block;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    margin: .5px;
+    transition: .3 px;
+
+}
+
+/* a.menu:visited {
+    background-color: blanchedalmond;
+    color: purple; 
+    font-weight: bold;
+} */
+/* a.menu:hover {
+    background-color: aquamarine;
+    color: green;
+    font-size: 20px;
+    transform: scale(0.95);
+} */
+/* a.menu:active {
+    background-color: navy;
+    color: yellow;
+    transform: scale(1);
+} */
+.sosial-media  {
+   margin : 20px
+}
+
+.sosial-media a {
+   text-decoration: none;
+}
+ 
+.sosial-media a:hover {
+    color: green;
+    background-color: black;
+
+}
+form {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+label {
+    font-weight: bold;
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: ipx solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input[type="submit"] {
+    background-color: royalblue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+}
+
+h3 {
+    color: orange;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+/* nav {
+    margin: 15px 0;
+} */
+
+ul {
+    list-style-type: square;
+    padding-left: 40px;
+}
+
+li {
+margin-bottom: 8px;
+}
+
+footer {
+
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+    border: 1px solid black;
+
+}
+th {
+    background-color: rgb(230, 13, 13);
+    color: #ccc;
+    padding: 10px;
+}
+
+/* td {
+    text-align: center;
+    padding: 8px;
+} */
+td img {
+    border-radius: 10px;
+    width: 100px;
+    height: 80px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top:  50px;
+}
+
+.hero {
+    background: url('img/bakso.jfif') center/cover no-repeat;
+    padding: 80p 20pxx;
+    color: white;
+    text-shadow: 1px ipx 3px rgba(0, 0, 0, 0.6);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+.hero h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
