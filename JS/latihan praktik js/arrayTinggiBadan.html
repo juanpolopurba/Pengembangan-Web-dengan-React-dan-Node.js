@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Data Tinggi Badan yang diurutkan</h2>
+    <div id="output"></div>
+    <script>
+        let tinggi = {
+            Rose: 178,
+            Magnolia: 153,
+            Daisy: 165,
+            Jasmine: 161,
+            Violet: 159
+        }; 
+
+        let entries = Object.entries(tinggi);
+
+        entries.sort(function(a, b){
+            return a[0].localeCompare(b[0]);
+        });
+
+        let hasil = "";
+        for (let [nama, tinggibunga] of entries){
+            hasil += `${nama} : ${tinggibunga} cm<br>`;
+        }
+        document.getElementById("output").innerHTML = hasil;
+    </script>
+</body>
+</html>
